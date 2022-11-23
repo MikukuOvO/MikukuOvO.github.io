@@ -19,17 +19,17 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.13.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="写在前面  此文是本人对于线段树的一些总结和归纳，在退役两年后再次重新系统的学习了一遍线段树，也有了一些新的感悟和体会，故在这里与各位分享，如果有错的地方希望各位加以指正，本文涉及的绝大多数例题都在文末给出了题目和代码链接，需要的可以自行查阅。   引入 线段树是算法竞赛中常用的维护区间信息的一种数据结构，其大多数能处理的情况一般为区间信息具有可并性，举例说明：  已知一个数列，有以下的两种操作">
+    <meta name="description" content="写在前面  xxxxxxxxxx #include&lt;bits&#x2F;stdc++.h&gt;​using namespace std;​int main(){    cout&lt;&lt;“Hello, world!”&lt;&lt;endl;    return 0;}cpp   引入 线段树是算法竞赛中常用的维护区间信息的一种数据结构，其大多数能处理的情况一般为区间信息具有可并性，举例说明">
 <meta property="og:type" content="article">
 <meta property="og:title" content="线段树小记">
 <meta property="og:url" content="http://example.com/2022/11/15/%E7%BA%BF%E6%AE%B5%E6%A0%91%E5%B0%8F%E8%AE%B0/index.html">
 <meta property="og:site_name" content="MikukuOvO&#39;s Blog">
-<meta property="og:description" content="写在前面  此文是本人对于线段树的一些总结和归纳，在退役两年后再次重新系统的学习了一遍线段树，也有了一些新的感悟和体会，故在这里与各位分享，如果有错的地方希望各位加以指正，本文涉及的绝大多数例题都在文末给出了题目和代码链接，需要的可以自行查阅。   引入 线段树是算法竞赛中常用的维护区间信息的一种数据结构，其大多数能处理的情况一般为区间信息具有可并性，举例说明：  已知一个数列，有以下的两种操作">
+<meta property="og:description" content="写在前面  xxxxxxxxxx #include&lt;bits&#x2F;stdc++.h&gt;​using namespace std;​int main(){    cout&lt;&lt;“Hello, world!”&lt;&lt;endl;    return 0;}cpp   引入 线段树是算法竞赛中常用的维护区间信息的一种数据结构，其大多数能处理的情况一般为区间信息具有可并性，举例说明">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://voidtech.cn/i/2022/11/15/wawhml.png">
 <meta property="og:image" content="https://voidtech.cn/i/2022/11/15/xmhd58.jpeg">
 <meta property="article:published_time" content="2022-11-15T11:44:09.000Z">
-<meta property="article:modified_time" content="2022-11-17T16:01:32.842Z">
+<meta property="article:modified_time" content="2022-11-23T15:27:52.317Z">
 <meta property="article:author" content="MikukuOvO">
 <meta property="article:tag" content="数据结构">
 <meta name="twitter:card" content="summary">
@@ -225,7 +225,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-11-18 00:01:32" itemprop="dateModified" datetime="2022-11-18T00:01:32+08:00">2022-11-18</time>
+      <time title="Modified: 2022-11-23 23:27:52" itemprop="dateModified" datetime="2022-11-23T23:27:52+08:00">2022-11-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -249,7 +249,7 @@
     <div class="post-body" itemprop="articleBody">
         <h2 id="写在前面"><a class="markdownIt-Anchor" href="#写在前面"></a> 写在前面</h2>
 <blockquote>
-<p>此文是本人对于线段树的一些总结和归纳，在退役两年后再次重新系统的学习了一遍线段树，也有了一些新的感悟和体会，故在这里与各位分享，如果有错的地方希望各位加以指正，本文涉及的绝大多数例题都在文末给出了题目和代码链接，需要的可以自行查阅。</p>
+<p>xxxxxxxxxx #include&lt;bits/stdc++.h&gt;​using namespace std;​int main(){    cout&lt;&lt;“Hello, world!”&lt;&lt;endl;    return 0;}cpp</p>
 </blockquote>
 <h2 id="引入"><a class="markdownIt-Anchor" href="#引入"></a> 引入</h2>
 <p>线段树是算法竞赛中常用的维护区间信息的一种数据结构，其大多数能处理的情况一般为区间信息具有<strong>可并性</strong>，举例说明：</p>
